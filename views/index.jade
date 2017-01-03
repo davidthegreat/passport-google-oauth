@@ -1,5 +1,6 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+    br
+    form(METHOD="LINK", ACTION="/auth/google")
+        input(type="submit", value="Login with Google", class='btn btn-large btn-primary')
