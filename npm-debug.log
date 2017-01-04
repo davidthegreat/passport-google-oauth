@@ -26,7 +26,7 @@
 14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
 15 verbose pkgid passport-google-oauths@0.0.0
 16 verbose cwd /Users/macbookair/Desktop/passport-google-oauth
-17 error Darwin 16.1.0
+17 error Darwin 16.3.0
 18 error argv "/usr/local/bin/node" "/Users/macbookair/.npm-packages/bin/npm" "start"
 19 error node v4.4.0
 20 error npm  v3.10.6
