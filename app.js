@@ -13,8 +13,8 @@ var users = require('./routes/users');
 
 var app = express();
 
-mongoose.connect('localhost:27017/google');
-
+// mongoose.connect('localhost:27017/google');
+mongoose.connect('mongodb://heroku_z14w0bfh:sf1pp335f91toff080i4cf89tb@ds059306.mlab.com:59306/heroku_z14w0bfh');
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
