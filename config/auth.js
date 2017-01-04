@@ -12,6 +12,6 @@ module.exports = {
   googleAuth: {
     clientID: '261326084865-rfa53p14gkqhl302cc45jtllqju3674p.apps.googleusercontent.com',
     clientSecret: 'YbnKIez5ePFXgrB2ZibKFT6-',
-    callbackURL: 'http://localhost:3000/auth/google/callback',
+    callbackURL: 'https://peaceful-garden-78512.herokuapp.com/auth/google/callback',
   },
 };
