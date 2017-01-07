@@ -4,12 +4,11 @@ block content
   header#myCarousel.carousel.slide
     .carousel-inner
       .item.active
-        // Set the first background image using inline CSS below.
-        .fill(style="background-image:url('http://www.paperlessproposal.com/wp-content/uploads/2014/08/Fotolia_53746123_Subscription_Monthly_M.jpg');")
+        .fill(style="background-image:url('/images/sanfran.jpg');")
           .row
             .col-md-12
               .text
                 h1.fonts  
-                p Login to find a job
+                p Login to Find a Job
                 form(method="link", action="/auth/google")
                   button.loginBtn.loginBtn--google Login with Google
