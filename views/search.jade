@@ -1,9 +1,7 @@
 extends layout
 
 block content
-    .backs
-      form(action='#', method='post', name='sign up for beta form')
-        .input
-          span.fa.fa-search
-          input#email.button(type='text', name='email', placeholder='Search For A Job')
-          input#submit.button(type='submit', value='SEARCH')
+  .back
+    h1#title Find A Job in San Francisco
+    input#search.button(type='text', name='search', placeholder='SEARCH FOR A JOB')
+    h2#results
