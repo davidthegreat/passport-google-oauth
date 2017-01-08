@@ -10,10 +10,10 @@ module.exports = {
   //   callbackURL: 'http://localhost:3000/auth/twitter/callback',
   // },
   googleAuth: {
-    clientID: '261326084865-rfa53p14gkqhl302cc45jtllqju3674p.apps.googleusercontent.com',
-    clientSecret: 'YbnKIez5ePFXgrB2ZibKFT6-',
+    clientID: '1097121211630-a2s5qs53fvld8nr284rh3p46r62guv8a.apps.googleusercontent.com',
+    clientSecret: 'H9gcmon_CZQxHgTK-UwGcGEu',
     // callbackURL: 'http://localhost:3000/auth/google/callback',
-    callbackURL: 'https://peaceful-garden-78512.herokuapp.com/auth/google/callback',
+    callbackURL: 'https://jobs-hunt.herokuapp.com/auth/google/callback',
 
   },
 };
