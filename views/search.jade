@@ -1,5 +1,18 @@
 extends layout
+block navBar
+  nav.navbar.navbar-inverse(role='navigation')
+    div.navbar-header
+      button(type='button',data-toggle='collapse',data-target='#jcs-navbar-collapse-1').navbar-toggle
+        span.sr-only Toggle navigation
+        span.iconbar
+        span.iconbar
+        span.iconbar
+      a(href='#').navbar-brand Job Hunt
+    div#jcs-navbar-collapse-1.collapse.navbar-collapse
+      ul.nav.navbar-nav
 
+      ul.nav.navbar-nav.navbar-right
+        li: a(href='/logout') Logout
 block content
   .back
     h1#title Find A Job in San Francisco
