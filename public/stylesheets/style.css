@@ -3,7 +3,6 @@ body {
     height: 100%;
 background-color: #FFD27F;
 }
-* { margin: 0; padding: 0; border: none; }
 
 
 .carousel,
@@ -140,8 +139,9 @@ transform: translate(-50%, -50%)
   text-align: center;
   background-color: #FFD27F;
   padding:0;
-margin:0;
-height: 100%;
+  margin:0;
+  height: 100%;
+  padding-top: 10px;
 }
 
 .back h1{
@@ -167,9 +167,9 @@ padding-bottom: 10px;
 
 .backs{
   background-color: #FFD27F;
-  height: 100%;
   padding:0;
-margin:0;
+  margin:0;
+  padding-top: 0px;
 }
 
 .jobTitle{
@@ -194,3 +194,7 @@ a:link {
 a:visited {
     text-decoration: none;
 }
+
+.navbar{
+       margin-bottom: 0!important;
+    }
